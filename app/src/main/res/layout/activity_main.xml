@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <!-- Nama & NIM -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama: Adina Ayu D | Nim: F1D022030"
+        android:textColor="@android:color/white"
+        android:background="@color/celadon"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="16dp"/>
+
+    <!-- Baris 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/red"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/green"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/blue"/>
+
+        <View
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red" />
+    </LinearLayout>
+
+    <!-- Baris 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/red"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/green"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/blue"/>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green" />
+    </LinearLayout>
+
+    <!-- Baris 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/red"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/green"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/blue"/>
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue" />
+    </LinearLayout>
+
+    <!-- Baris 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red" />
+
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/red"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/green"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/blue"/>
+    </LinearLayout>
+
+    <!-- Baris 5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green" />
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/red"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/green"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/blue"/>
+    </LinearLayout>
+
+    <!-- Baris 6 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue" />
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/red"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/green"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:background="@color/blue"/>
+    </LinearLayout>
+</LinearLayout>
